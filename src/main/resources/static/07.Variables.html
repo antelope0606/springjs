@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Getting Started: Serving Web Content</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+
+
+  <table border="1">
+    <tr>
+      <th><p id="demo">check point</p></th>
+      <th><p id="demoFrom">What's that?</p></th>
+      <th><p id="demoTo">What's that?</p></th>
+    </tr>
+    <tr>
+      <td>var</td>
+      <td>const</td>
+      <td>let</td>
+    </tr>
+
+    <tr>
+      <td>not inited</td>
+      <script>var var1;</script>
+      <td><button type="button" onclick="document.getElementById('demoTo').innerHTML=var1">undefined!</button></td>
+　　　　　<td>var carName;<br>document.getElementById("demoTo").innerHTML = var1;</td>
+	</tr>
+    <tr>
+      <td>not inited</td>
+      <script>var var2= "5" + 2 + 3;</script>
+      <td><button type="button" onclick="document.getElementById('demoTo').innerHTML=var2">undefined!</button></td>
+　　　　　<td>var var2 = "5" + 2 + 3;<br>document.getElementById("demoTo").innerHTML = var2;</td>
+	</tr>
+    <tr>
+      <td>not inited</td>
+      <script>var var3= 2 + 3 + "5";</script>
+      <td><button type="button" onclick="document.getElementById('demoTo').innerHTML=var3">undefined!</button></td>
+　　　　　<td>var var3 = 2 + 3 + "5";<br>document.getElementById("demoTo").innerHTML = var3;</td>
+	</tr>
+		
+	<tr>
+	  <td></td>
+      <td></td>
+　　　　　<td></td>
+	</tr>
+　　</table>
+
+
+
+　　<p>index <a href="index.html">here</a></p>
+</body>
+</html>

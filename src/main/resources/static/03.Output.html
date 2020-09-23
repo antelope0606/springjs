@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Getting Started: Serving Web Content</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+  <table border="1">
+    <tr>
+      <th><p id="demo">check point</p></th>
+      <th><p id="demoFrom">What's that?</p></th>
+      <th><p id="demoTo">What's that?</p></th>
+    </tr>
+    <tr>
+      <td>innerHTML</td>
+      <td><script>document.getElementById("demoTo").innerHTML = 5 + 6;</script></td>
+      <td>document.getElementById("demoTo").innerHTML = 5 + 6;</td>
+    </tr>
+    <tr>
+      <td>before load</td>
+      <td><script>document.write(5 + 6);</script></td>
+　　　　　<td>document.write(5 + 6);</td>
+	</tr>
+	<tr>
+	  <td>after load</td>
+      <td><button type="button" onclick="document.write(5 + 6)">Don't!</button></td>
+　　　　　<td>document.write(5 + 6);</td>
+	</tr>
+	<tr>
+	  <td>window.alert</td>
+      <td><button type="button" onclick="window.alert(5 + 6)">alert!</button></td>
+　　　　　<td>window.alert(5 + 6);</td>
+	</tr>
+	<tr>
+	  <td>alert</td>
+      <td><button type="button" onclick="alert(5 + 6)">alert!</button></td>
+　　　　　<td>alert(5 + 6);</td>
+	</tr>
+	<tr>
+	  <td>console.log</td>
+      <td><button type="button" onclick="console.log(5 + 6);">console!</button></td>
+　　　　　<td>console.log(5 + 6);</td>
+	</tr>
+	<tr>
+	  <td>window.print</td>
+      <td><button type="button" onclick="window.print();">print!</button></td>
+　　　　　<td>window.print();</td>
+	</tr>
+　　</table>
+
+
+
+　　<p>index <a href="index.html">here</a></p>
+</body>
+</html>
